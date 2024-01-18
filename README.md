@@ -1,6 +1,6 @@
 # AWS Lambda Resource Explorer Auto Tagger
 
-This script searches for resources without 2 specific tags: `` ['philosophy' and 'liberal-arts'] `` in 2 AWS regions `` ['us-east-1' and 'us-east-2'] `` - and tags them using the AWS SDK for Python (Boto3) with Resource Explorer in an either a Lambda Function or a script to be executed locally.
+This script searches for resources without 2 specific tags in an AWS account: `` ['philosophy' and 'liberal-arts'] `` in 2 AWS regions `` ['us-east-1' and 'us-east-2'] `` - and tags them using the AWS SDK for Python (Boto3) with Resource Explorer in an either a Lambda Function or a script to be executed locally.
 
 ## Pre Requisites
 
