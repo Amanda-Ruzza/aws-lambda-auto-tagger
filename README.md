@@ -1,6 +1,6 @@
-# AWS Lambda Auto Tagger
+# AWS Lambda Resource Explorer Auto Tagger
 
-This script searches for resources without 2 specific tags in 2 AWS regions and tags them using the AWS SDK for Python (Boto3) with Resource Explorer in an either a Lambda Function or a script to be executed locally.
+This script searches for resources without 2 specific tags: `` ['philosophy' and 'liberal-arts'] `` in 2 AWS regions `` ['us-east-1' and 'us-east-2'] `` - and tags them using the AWS SDK for Python (Boto3) with Resource Explorer in an either a Lambda Function or a script to be executed locally.
 
 ## Pre Requisites
 
@@ -23,4 +23,4 @@ This creates a virtual environment folder named .venv. Each virtual environment 
 Install the packages by running the following command:
 
 `` python -m pip install -r requirements.txt ``
-This installs all of the packages listed in the requirements.txt file in the current folder.
+This installs all of the packages listed in the `` requirements.txt `` file in the current folder.
